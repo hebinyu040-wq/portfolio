@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="何滨宇的 2026 动态设计作品集，涵盖 UI、视觉、AIGC 与 vibe coding。" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>何滨宇 — 2026 设计作品集</title>
+    <link rel="stylesheet" href="./styles.css?v=20260908-3" />
+    <script src="./content.js?v=20260908-3" defer></script>
+    <script src="./app.js?v=20260909-1" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#cover" aria-label="回到封面">
+        <span class="brand-mark">HB</span>
+        <span class="brand-meta">Portfolio<br />2026</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">打开导航</span>
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#cover">封面</a>
+        <a href="#resume">简历</a>
+        <a href="#work">作品</a>
+        <a href="#end">结束</a>
+      </nav>
+    </header>
+
+    <nav class="page-rail" aria-label="章节导航">
+      <a href="#cover" data-page-link="cover" class="is-active"><span>01</span><i></i><em>封面</em></a>
+      <a href="#resume" data-page-link="resume"><span>02</span><i></i><em>简历</em></a>
+      <a href="#work" data-page-link="work"><span>03</span><i></i><em>作品</em></a>
+      <a href="#end" data-page-link="end"><span>04</span><i></i><em>结束</em></a>
+    </nav>
+
+    <main id="main-content">
+      <section class="design-page design-page--cover page-section" id="cover" data-page="cover" aria-labelledby="cover-title">
+        <div class="figma-stage cover-stage" data-motion-scene>
+          <div class="scene-background cover-background" aria-hidden="true">
+            <img src="./assets/cover-background.png" alt="" fetchpriority="high" />
+            <video class="cover-motion" autoplay muted loop playsinline preload="auto" poster="./assets/cover-background.png" tabindex="-1" disablepictureinpicture>
+              <source src="./assets/cover-motion.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="scene-vignette" aria-hidden="true"></div>
+          <h1 class="cover-title" id="cover-title">
+            <span class="motion-layer" style="--motion-delay: 160ms">2026</span>
+            <span class="motion-layer" style="--motion-delay: 260ms">设计作品集</span>
+          </h1>
+        </div>
+      </section>
+
+      <section class="design-page design-page--resume page-section" id="resume" data-page="resume" aria-labelledby="resume-title">
+        <div class="figma-stage resume-stage" data-motion-scene>
+          <h2 class="resume-title motion-layer" id="resume-title" style="--motion-delay: 60ms">个人简历</h2>
+
+          <div class="resume-photo-panel motion-layer" style="--motion-delay: 140ms">
+            <div class="resume-photo-block" aria-hidden="true"></div>
+            <img src="./assets/resume-portrait.png" alt="何滨宇个人照片" />
+            <p class="resume-hello" aria-hidden="true"><span>HELLO</span><span>THERE</span></p>
+          </div>
+
+          <div class="resume-intro">
+            <p class="resume-role motion-layer" style="--motion-delay: 100ms">视觉设计师 / 创意工作者</p>
+            <p class="resume-greeting motion-layer" style="--motion-delay: 170ms">你好，我是</p>
+            <p class="resume-name motion-layer" style="--motion-delay: 230ms">何滨宇</p>
+            <p class="resume-bio motion-layer" style="--motion-delay: 300ms">我是一名关注视觉叙事与数字体验的设计师，擅长提供AI把抽象想法转化成清晰、有个性的表达。</p>
+          </div>
+
+          <div class="resume-meta motion-layer" style="--motion-delay: 350ms">
+            <div><span>BASED IN</span><strong>广西南宁市</strong></div>
+            <div><span>FOCUS</span><strong>UI设计·视觉设计·vibe coding·AIGC设计</strong></div>
+          </div>
+
+          <article class="resume-detail resume-experience motion-layer" style="--motion-delay: 410ms">
+            <span class="resume-index">01</span>
+            <h3>经历</h3>
+            <div class="resume-rule"></div>
+            <time>2026—Now</time>
+            <h4>UI设计，AIGC设计师</h4>
+            <time class="resume-detail-date">2026—Now</time>
+            <p>参与福客满改版项目，运营设计，AIGC宣传广告制作</p>
+          </article>
+
+          <article class="resume-detail resume-education motion-layer" style="--motion-delay: 470ms">
+            <span class="resume-index">02</span>
+            <h3>教育</h3>
+            <div class="resume-rule"></div>
+            <time>2024—2028</time>
+            <h4>桂林电子科技大学</h4>
+            <p>数字媒体艺术</p>
+          </article>
+
+          <article class="resume-detail resume-skills motion-layer" style="--motion-delay: 530ms">
+            <span class="resume-index">03</span>
+            <h3>能力</h3>
+            <div class="resume-rule"></div>
+            <ul aria-label="设计能力">
+              <li>UI / UX</li>
+              <li>AIGC</li>
+              <li>运营设计</li>
+              <li>vibe coding</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="work section-pad page-section" id="work" data-page="work" aria-labelledby="work-title">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">03 / 04 · Selected Work</p>
+            <h2 id="work-title">代表作品</h2>
+          </div>
+          <p class="section-note">点击项目进入完整案例，更多作品内容将持续更新。</p>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="作品分类" data-filters></div>
+        <div class="work-grid" data-projects aria-live="polite"></div>
+      </section>
+
+      <section class="design-page design-page--end page-section" id="end" data-page="end" aria-labelledby="end-title">
+        <div class="figma-stage end-stage" data-motion-scene>
+          <div class="scene-background end-background" aria-hidden="true">
+            <img src="./assets/end-background.png?v=20260906" alt="" />
+          </div>
+          <div class="scene-vignette scene-vignette--end" aria-hidden="true"></div>
+          <h2 class="end-title" id="end-title">
+            <span class="motion-layer" style="--motion-delay: 170ms">THANK YOU</span>
+            <span class="motion-layer" style="--motion-delay: 270ms">期待与你共事</span>
+          </h2>
+          <div class="end-contact-bar" aria-label="联系方式">
+            <div class="end-contact-item">
+              <button class="end-contact-button" type="button" aria-describedby="wechat-contact">微信</button>
+              <div class="end-contact-popover end-contact-popover--qr" id="wechat-contact" role="tooltip">
+                <img class="contact-qr-image" src="./assets/wechat-qr.png?v=20260908" alt="何滨宇的微信二维码" />
+                <strong>微信号：w32084396</strong>
+                <small>扫码添加微信</small>
+              </div>
+            </div>
+            <div class="end-contact-item">
+              <button class="end-contact-button" type="button" aria-describedby="email-contact">邮箱</button>
+              <div class="end-contact-popover end-contact-popover--email" id="email-contact" role="tooltip">
+                <small>邮箱地址</small>
+                <strong data-profile-email>3521815601@qq.com</strong>
+                <span>欢迎通过邮件联系我</span>
+              </div>
+            </div>
+            <div class="end-contact-item">
+              <button class="end-contact-button" type="button" aria-describedby="phone-contact">电话</button>
+              <div class="end-contact-popover end-contact-popover--phone" id="phone-contact" role="tooltip">
+                <small>联系电话</small>
+                <strong>19914883802</strong>
+                <span>欢迎来电联系</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="case-dialog" data-case-dialog aria-labelledby="case-title">
+      <div class="case-shell">
+        <button class="case-close" type="button" data-case-close aria-label="关闭项目详情">×</button>
+        <div class="case-hero" data-case-hero>
+          <div class="case-kicker" data-case-kicker></div>
+          <h2 id="case-title" data-case-title></h2>
+          <p data-case-summary></p>
+        </div>
+        <div class="case-body">
+          <dl class="case-facts" data-case-facts></dl>
+          <div class="case-narrative" data-case-narrative></div>
+          <div class="case-gallery" data-case-gallery></div>
+          <div class="case-next">
+            <span>End of case study</span>
+            <button type="button" data-case-close>返回作品列表 ↑</button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <div class="cursor" aria-hidden="true"><span>View</span></div>
+  </body>
+</html>
