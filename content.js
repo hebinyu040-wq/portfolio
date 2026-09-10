@@ -11,7 +11,7 @@ window.PORTFOLIO_CONTENT = {
     location: "你的城市",
     focus: "品牌 / 视觉 / 数字体验",
     availability: "Freelance & Collaboration",
-    email: "3521815601@qq.com",
+    email: "hebinyu040@gmail.com",
     role: "视觉设计师 / 创意工作者",
     experience: [
       {

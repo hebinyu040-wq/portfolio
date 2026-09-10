@@ -490,14 +490,14 @@ body[data-current-page="end"] #end .scene-background img {
 
 .resume-experience .resume-detail-date {
   position: absolute;
-  top: 8.9583cqw;
+  top: 9.375cqw;
   left: 0.1563cqw;
   color: #fff;
 }
 
 .resume-experience p {
   position: absolute;
-  top: 10.3646cqw;
+  top: 10.7813cqw;
   left: 0.2083cqw;
   width: 15cqw;
   line-height: 1.25cqw;
@@ -1394,22 +1394,6 @@ body[data-current-page="work"] {
   color: var(--muted);
   font-size: 0.76rem;
   line-height: 1.7;
-}
-
-.resume-skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  padding-top: 1.2rem;
-  border-top: 1px solid var(--line);
-}
-
-.resume-skills span {
-  padding: 0.65rem 0.9rem;
-  border: 1px solid var(--line);
-  border-radius: 100vmax;
-  color: var(--muted);
-  font-size: 0.68rem;
 }
 
 .section-head {
